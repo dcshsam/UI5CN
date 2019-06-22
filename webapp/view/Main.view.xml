@@ -1,0 +1,27 @@
+<mvc:View controllerName="san.Project1.controller.Main" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="Project 1">
+					<content>
+
+						    <GenericTile header="Jessica Danielle Johnso"
+						    			 class="sapUiTinyMarginBegin sapUiTinyMarginTop"
+						    			 press="onPressMain"
+						                 subheader="Senior Consultant">         
+							<TileContent>
+                               <NumericContent withMargin="false"
+                                                value="12"
+                                                valueColor="Critical"
+                                                indicator="Up"
+                                                scale="k">
+                                	
+                                </NumericContent>   
+							</TileContent>
+						</GenericTile>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
